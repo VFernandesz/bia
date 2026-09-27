@@ -66,7 +66,7 @@ const AddTask = ({ onAdd }) => {
         isOpen={showModal}
         onClose={() => setShowModal(false)}
         title="Campo obrigatório"
-        message="Por favor, adicione uma descrição para a tarefa"
+        message="Adicione uma descrição para a tarefa"
         type="warning"
       />
     </form>
