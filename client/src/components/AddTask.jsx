@@ -42,7 +42,7 @@ const AddTask = ({ onAdd }) => {
         <label>Data/Prazo</label>
         <input
           type="text"
-          placeholder="Quando?"
+          placeholder="Data limite"
           value={dia}
           onChange={(e) => setDia(e.target.value)}
         />
