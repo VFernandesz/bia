@@ -32,7 +32,7 @@ const AddTask = ({ onAdd }) => {
         <label>Tarefa</label>
         <input
           type="text"
-          placeholder="O que você precisa fazer?"
+          placeholder="O que vamos fazer hoje?"
           value={titulo}
           onChange={(e) => setTitulo(e.target.value)}
         />
@@ -59,7 +59,7 @@ const AddTask = ({ onAdd }) => {
       </div>
       
       <button type="submit" className="btn btn-block success">
-        Add New Task
+        Adicionar nova tarefa
       </button>
       
       <Modal
